@@ -7,4 +7,4 @@ Personal CV written in HTML and CSS
 
 # PDF
 
-![](assets/cv.pdf)
+![](assets/preview.jpg)
