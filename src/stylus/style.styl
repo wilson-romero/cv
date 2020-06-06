@@ -1,0 +1,163 @@
+color-primary= #282a2c
+color-secondary= #5f676c
+color-bg= #f5f5f5
+
+font-family-title= 'Montserrat', sans-serif
+font-family= 'Open Sans', sans-serif
+
+body
+    margin 0
+    padding 0
+    font-family font-family
+    color color-secondary
+    position relative
+
+a 
+    text-decoration none;
+    
+    &hover 
+        text-decoration underline;
+
+    &visited 
+        color black;
+
+li 
+    list-style none
+
+header
+    position absolute
+    top 2rem
+    width 100%
+    text-align center
+    font-family font-family-title
+
+    span 
+        color color-primary
+        font-weight 800
+main
+    display flex
+
+    section
+        width 50%
+        padding-top 7rem
+
+    .left
+        display flex
+        justify-content  flex-end
+        padding-left  1rem
+        padding-right  4rem
+        padding-bottom 2rem
+
+        .container
+                margin-top 3rem
+                
+            .block
+                margin-bottom 2.5rem
+
+                .card 
+                    margin-top .75rem
+
+                    .date
+                        font-family font-family-title
+                        font-size .75rem
+                        text-transform uppercase
+                        letter-spacing .25rem
+                    
+                    .job
+                        font-family font-family-title
+                        font-size 1rem
+                        font-weight 800
+                    
+                    .title    
+                        font-family font-family-title
+                        font-size 1rem
+                        font-weight 800
+                        text-transform none
+                        letter-spacing 0
+
+    .right
+        background color-bg
+        padding-left 4rem
+        padding-right 1rem
+        padding-bottom 2rem
+        
+        .hero 
+            color color-primary
+            display inline-block
+            font-family font-family-title
+            margin-bottom 2rem
+            
+            h1
+                font-size 3rem
+                font-weight 400
+                line-height .9
+                margin 0
+                display grid
+                grid-gap 0
+
+                span
+                    font-weight 800
+            
+            p
+                background color-primary
+                color white
+                margin-top .5rem
+                padding  .25rem 1rem
+                text-transform uppercase
+                font-size .75rem
+                letter-spacing .25rem
+            
+            .social
+                display flex
+                font-size .75rem
+
+                & > span
+                    margin-right .75rem
+
+                .icon
+                    padding-left  1.75rem
+                    height 2rem
+                    display flex
+                    align-items center
+
+                .g 
+                    background url("../images/github.png") center left no-repeat;
+                
+                .l
+                    background url("../images/linkedin.png") center left no-repeat;
+                
+                .t
+                    background url("../images/twitter.png") center left no-repeat;
+
+        .number-block
+            display flex
+            font-family font-family-title
+
+            .number
+                font-size .75rem
+                background color-primary
+                clip-path polygon(100% 0%, 75% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+                color white
+                margin-left  -5rem
+                margin-right 2.5rem
+                height 1.5rem
+                width 2rem
+                padding-left .5rem
+                display flex
+                align-items center
+                line-height .5
+        
+
+.container
+    width 512px
+
+.title
+    margin-top .25rem
+    font-family font-family-title
+    text-transform uppercase
+    font-weight 800
+    letter-spacing .25rem
+
+.content
+    font-family font-family
+    font-size .9rem
