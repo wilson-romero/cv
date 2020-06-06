@@ -1,8 +1,8 @@
 # CV
 Personal CV written in HTML and CSS
 
-# Read my résumé [**here**](https://wilson-romero.github.io/cv/)
+# Read my cv [**here**](https://wilson-romero.github.io/cv/)
 
-# Preview
+# PDF
 
-![](assets/preview.png)
+![](assets/cv.pdf)
